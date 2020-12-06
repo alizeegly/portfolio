@@ -73,13 +73,12 @@ export const SidebarRoute = styled(LinkR)`
     padding: 8px 40px;
     border-radius: 2px;
     outline: none;
-    border: none;
     cursor: pointer;
     background-color: transparent;
     color: #fff;
     font-size: 1.5rem;
     padding: 8px 20px;
-    border: 2px solid #fff;
+    border: 2px solid #8E2E1D;
     transition: all 0.3s ease-out;
     text-decoration: none;
 
@@ -88,5 +87,6 @@ export const SidebarRoute = styled(LinkR)`
         background: #fff;
         color: #010606;
         font-weight: 700;
+        border: none;
     }
 `;
