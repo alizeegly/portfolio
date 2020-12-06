@@ -23,7 +23,7 @@ const HeroSection = () => {
                     Apprentie Développeuse Web
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="cv" onClick={showCV} onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+                    <Button to="cv" onClick={showCV} onMouseEnter={onHover} onMouseLeave={onHover} primary='true' >
                         Télécharger mon CV {hover ? <ArrowLeft/> : ""}
                     </Button>
                 </HeroBtnWrapper>

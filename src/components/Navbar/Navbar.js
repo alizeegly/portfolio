@@ -13,7 +13,7 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about-me">A propos de moi</NavLinks>
+                            <NavLinks to="about-me">À propos de moi</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="experiences">Expériences</NavLinks>
