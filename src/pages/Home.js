@@ -7,6 +7,7 @@ import Sidebar from '../components/Sidebar/Sidebar'
 import Experiences from '../components/Experiences/Experiences'
 import Formations from '../components/Formations/Formations'
 import Projects from '../components/Projects/Projects'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -24,6 +25,7 @@ const Home = () => {
             <Experiences resumeData={resumeData}/>
             <Formations resumeData={resumeData}/>
             <Projects resumeData={resumeData}/>
+            <Footer resumeData={resumeData}/>
         </>
     )
 }
