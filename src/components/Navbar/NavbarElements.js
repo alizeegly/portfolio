@@ -3,7 +3,8 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: #040203;
+    /*background: #040203;*/
+    background: ${({scrollNav}) => (scrollNav ? '#040203' : '#040203')};
     height: 80px;
     display: flex;
     justify-content: center;
@@ -81,7 +82,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
   
     &.active {
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 3px solid #8E2E1D;
     }
 `;
 

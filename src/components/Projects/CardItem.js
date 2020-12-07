@@ -18,7 +18,7 @@ function CardItem(props) {
                     <CardTags>
                         { 
                             props.technics.map((item) => (
-                                <CardTechnics>{item}</CardTechnics>
+                                <CardTechnics key={item}>{item}</CardTechnics>
                             ))
                         }
                     </CardTags>

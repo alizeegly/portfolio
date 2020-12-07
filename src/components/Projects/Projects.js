@@ -15,6 +15,7 @@ const Projects = ( {resumeData} ) => {
                             label={item.name}
                             path='/services'
                             technics={item.technics}
+                            key={item.name}
                         />
                     ))
                 }
