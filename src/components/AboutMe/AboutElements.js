@@ -68,8 +68,27 @@ export const Heading = styled.h1`
     font-weight: 600;
     color: ${ ({lightTextHeading}) => (lightTextHeading ? '#f7f8fa' : '#010606') };
 
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 576px){
+        font-size: 42px;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+
+    @media screen and (max-width: 530px){
+        font-size: 39px;
+    }
+
+    @media screen and (max-width: 495px){
         font-size: 32px;
+    }
+
+    @media screen and (max-width: 427px){
+        font-size: 29px;
+    }
+
+    @media screen and (max-width: 392px){
+        font-size: 25px;
     }
 `
 
@@ -79,16 +98,39 @@ export const Subtitle = styled.p`
     font-size: 18px;
     line-height: 24px;
     color: ${ ({darkText}) => (darkText ? '#010606' : '#fff') };
+
+    @media screen and (max-width: 760px){
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
 `
 
 export const BtnWrap = styled.div`
     display: flex;
     justify-content: flex-start;
+
+    @media screen and (max-width: 760px){
+        justify-content: center;
+    }
 `
 
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 760px){
+        max-width: 275px;
+    }
+
+    @media screen and (max-width: 500px){
+        max-width: 215px;
+    }
+
+    @media screen and (max-width: 320px){
+        max-width: 200px;
+    }
 `
 
 export const Img = styled.img`

@@ -15,29 +15,29 @@ import {
     Img
 } from './AboutElements'
 
-const AboutMe = ( {lightBg, id, imgStart, topLine, lightTextHeading, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2} ) => {
+const AboutMe = ( {resumeData} ) => {
     const showCV = () => {
 		window.open("http://alizeegillouaye.com/alizee_gillouaye_cv.pdf")
     };
     
     return (
         <>
-            <InfoContainer lightBg={lightBg} id={id}>
+            <InfoContainer id="about-me">
                 <InfoWrapper>
-                    <InfoRow imgStart={imgStart}>
+                    <InfoRow imgStart="true">
                         <Column1>
                             <TextWrapper>
-                                <TopLine>{topLine}</TopLine>
-                                <Heading lightTextHeading={lightTextHeading}>{headline}</Heading>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
+                                <TopLine>À propos de moi</TopLine>
+                                <Heading lightTextHeading="true">{resumeData.role}</Heading>
+                                <Subtitle>{resumeData.aboutme}</Subtitle>
                                 <BtnWrap>
-                                    <Button to="home" onClick={showCV} smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>{buttonLabel}</Button>
+                                    <Button to="home" onClick={showCV} smooth={true} duration={500} spy={true} exact="true" offset={-80} primary="true">Télécharger mon CV</Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt} />
+                                <Img src={resumeData.imagebaseurl} alt="Moi" />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
