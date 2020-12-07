@@ -1,6 +1,6 @@
 import React from 'react'
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from './FooterElements'
-import {FaFacebook, FaInstagram, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import {FaFacebook, FaInstagram, FaGithub, FaLinkedin} from 'react-icons/fa'
 
 const Footer = ( {resumeData} ) => {
     return (
@@ -27,19 +27,19 @@ const Footer = ( {resumeData} ) => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/">Alizée Gillouaye</SocialLogo>
-                        <WebsiteRights>Alizée Gillouaye @ {new Date().getFullYear()} All rights reserved</WebsiteRights>
+                        <WebsiteRights>{new Date().getFullYear()} All rights reserved</WebsiteRights>
                         <SocialIcons>
+                            <SocialIconLink href="https://www.linkedin.com/in/alizee-gillouaye/" target="_blank" aria-label="Linkedin">
+                                <FaLinkedin/>
+                            </SocialIconLink>
+                            <SocialIconLink href="https://twitter.com/https://github.com/alizeegly" target="_blank" aria-label="Github">
+                                <FaGithub/>
+                            </SocialIconLink>
                             <SocialIconLink href="https://www.facebook.com/alizee.gillouaye" target="_blank" aria-label="Facebook">
                                 <FaFacebook/>
                             </SocialIconLink>
                             <SocialIconLink href="https://www.instagram.com/alizee_gly/" target="_blank" aria-label="Instagram">
                                 <FaInstagram/>
-                            </SocialIconLink>
-                            <SocialIconLink href="https://twitter.com/AlizeeGly" target="_blank" aria-label="Twitter">
-                                <FaTwitter/>
-                            </SocialIconLink>
-                            <SocialIconLink href="https://www.linkedin.com/in/alizee-gillouaye/" target="_blank" aria-label="Linkedin">
-                                <FaLinkedin/>
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
