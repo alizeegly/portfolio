@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ExperiencesContainer = styled.div`
-    height: calc(100vh - 160px);
+    height: calc(100vh - 80px);
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -32,8 +32,6 @@ export const ExperiencesWrapper = styled.div`
     height: 80%;
     margin: 0 auto;
     display: flex;
-    margin-top: 100px;
-    border-bottom: 2px solid #F4F4F4;
 
     @media screen and (max-width: 600px){
         height: 65%;
@@ -46,6 +44,7 @@ export const ExperiencesWrapper = styled.div`
 export const Bloc = styled.div`
     width: ${ ({width}) => (width ? '30%' : '70%') };
     /*background: ${ ({width}) => (width ? 'red' : 'blue') };*/
+    margin-top: 50px;
     
     @media screen and (max-width: 550px){
         margin: 0 auto;

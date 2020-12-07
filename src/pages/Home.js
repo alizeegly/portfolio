@@ -5,6 +5,8 @@ import HeroSection from '../components/HeroSection/HeroSection'
 import Navbar from '../components/Navbar/Navbar'
 import Sidebar from '../components/Sidebar/Sidebar'
 import Experiences from '../components/Experiences/Experiences'
+import Formations from '../components/Formations/Formations'
+import Projects from '../components/Projects/Projects'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -20,6 +22,8 @@ const Home = () => {
             <HeroSection/>
             <AboutMe resumeData={resumeData}/>
             <Experiences resumeData={resumeData}/>
+            <Formations resumeData={resumeData}/>
+            <Projects resumeData={resumeData}/>
         </>
     )
 }

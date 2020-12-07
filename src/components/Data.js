@@ -26,25 +26,25 @@ let resumeData = {
     "website": "https://alizeegillouaye.com",
     "education": [
         {
+            "UniversityName": "École Européenne des Métiers de l'Internet (EEMI)",
+            "specialization": "Développement Web",
+            "place": "Paris",
+            "YearOfPassing": "De 2018 à 2021",
+            "Achievements": "Bachelor Chef de projets Digitaux"
+        },
+        {
+            "UniversityName": "Université Catholique de l'Ouest (UCO)",
+            "specialization": "2 années de Licence",
+            "place": "Rezé (44)",
+            "YearOfPassing": "De 2016 à 2018",
+            "Achievements": "Mathématiques et Informatique appliquées aux Sciences Humaines et Sociales"
+        },
+        {
             "UniversityName": "Lycée Notre Dame",
             "specialization": "",
             "place": "Rezé (44)",
             "YearOfPassing": "2016",
             "Achievements": "Baccalauréat Scientifique"
-        },
-        {
-            "UniversityName": "Université Catholique de l'Ouest (UCO)",
-            "specialization": "Mathématiques et Informatique appliquées aux Sciences Humaines et Sociales",
-            "place": "",
-            "YearOfPassing": "de 2016 à 2018",
-            "Achievements": "2 années de Licences"
-        },
-        {
-            "UniversityName": "École Européenne des Métiers de l'Internet (EEMI)",
-            "specialization": "Développement Web",
-            "place": "Paris",
-            "YearOfPassing": "2021",
-            "Achievements": "Bachelor Chef de projets Digitaux"
         }
     ],
     "work": [
