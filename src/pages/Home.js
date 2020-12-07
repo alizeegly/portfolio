@@ -8,6 +8,7 @@ import Experiences from '../components/Experiences/Experiences'
 import Formations from '../components/Formations/Formations'
 import Projects from '../components/Projects/Projects'
 import Footer from '../components/Footer/Footer'
+import Contact from '../components/Contact/Contact'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -25,6 +26,7 @@ const Home = () => {
             <Experiences resumeData={resumeData}/>
             <Formations resumeData={resumeData}/>
             <Projects resumeData={resumeData}/>
+            {/* <Contact resumeData={resumeData}/> */}
             <Footer resumeData={resumeData}/>
         </>
     )

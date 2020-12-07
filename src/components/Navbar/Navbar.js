@@ -46,7 +46,7 @@ const Navbar = ({ toggle }) => {
                                 <NavLinks to="projects" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Mes projets</NavLinks>
                             </NavItem>
                             <NavBtn>
-                                <NavBtnLink to="/contact">ME CONTACTER</NavBtnLink>
+                                <NavBtnLink to="contact">ME CONTACTER</NavBtnLink>
                             </NavBtn>
                         </NavMenu>
                     </NavbarContainer>
