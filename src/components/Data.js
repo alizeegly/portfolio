@@ -107,24 +107,40 @@ let resumeData = {
     ],
     "portfolio": [
         {
-            "name": "project1",
-            "description": "mobileapp",
-            "imgurl": "images/portfolio/phone.jpg"
+            "name": "FLAVR",
+            "description": "Application iOS de recettes. Grâce à un compte personnel, il y a la possibilité d'ajouter une recette à l'application",
+            "imgurl": "images/portfolio/phone.jpg",
+            "technics": ["Xcode", "Swift", "Firebase"]
         },
         {
-            "name": "project2",
-            "description": "mobileapp",
-            "imgurl": "images/portfolio/project.jpg"
+            "name": "Messenger 2",
+            "description": "Clone de l'application iOS Messenger",
+            "imgurl": "images/portfolio/project.jpg",
+            "technics": ["Xcode", "Swift", "Firebase"]
         },
         {
-            "name": "project3",
-            "description": "mobileapp",
-            "imgurl": "images/portfolio/project2.png"
+            "name": "MyMusic",
+            "description": "Application iOS pour écouter de la musique",
+            "imgurl": "images/portfolio/project2.png",
+            "technics": ["Xcode", "Swift"]
         },
         {
-            "name": "project4",
-            "description": "mobileapp",
-            "imgurl": "images/portfolio/phone.jpg"
+            "name": "Convertisseur",
+            "description": "Application iOS permettant de convertir les dollars/euros, degré celsius/fahrenheit et les km/miles",
+            "imgurl": "images/portfolio/project2.png",
+            "technics": ["Xcode", "Swift"]
+        },
+        {
+            "name": "Chat App",
+            "description": "Plateforme web de tchat où une personne peut ajouter un message et voir les derniers qui ont été envoyés",
+            "imgurl": "images/portfolio/phone.jpg",
+            "technics": ["React", "Firebase"]
+        },
+        {
+            "name": "Markdown App",
+            "description": "Plateforme web qui transforme un texte en markdown en texte normale",
+            "imgurl": "images/portfolio/phone.jpg",
+            "technics": ["React"]
         }
     ],
     "testimonials": [
