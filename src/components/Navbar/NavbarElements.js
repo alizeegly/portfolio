@@ -96,7 +96,7 @@ export const NavBtn = styled.nav`
     }
 `
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkS)`
     padding: 8px 40px;
     border-radius: 2px;
     outline: none;

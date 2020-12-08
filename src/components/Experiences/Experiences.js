@@ -1,6 +1,5 @@
 import React from 'react'
-import { Button } from 'react-scroll'
-import { ExperiencesContainer, ExperiencesH1, ExperiencesWrapper, Bloc, Experience, JobName, Titre, Dates, CompanyName, Description } from './ExperiencesElements'
+import { ExperiencesContainer, ExperiencesWrapper, Bloc, Experience, JobName, Titre, Dates, CompanyName, Description } from './ExperiencesElements'
 
 const Experiences = ( {resumeData} ) => {
     return (
