@@ -1,6 +1,7 @@
 import React from 'react'
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from './FooterElements'
 import {FaFacebook, FaInstagram, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {AiOutlineMail} from 'react-icons/ai'
 import {animateScroll as scroll} from 'react-scroll'
 
 const Footer = ( {resumeData} ) => {
@@ -34,6 +35,9 @@ const Footer = ( {resumeData} ) => {
                         <SocialLogo to="/" onClick={toggleHome}>Alizée Gillouaye</SocialLogo>
                         <WebsiteRights>{new Date().getFullYear()} All rights reserved</WebsiteRights>
                         <SocialIcons>
+                            <SocialIconLink href="mailto:agillouaye@icloud.com" target="_blank" aria-label="Mail">
+                                <AiOutlineMail/>
+                            </SocialIconLink>
                             <SocialIconLink href="https://www.linkedin.com/in/alizee-gillouaye/" target="_blank" aria-label="Linkedin">
                                 <FaLinkedin/>
                             </SocialIconLink>
